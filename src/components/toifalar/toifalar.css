@@ -1,0 +1,59 @@
+
+
+.table-wrap {
+
+    width: 100%;
+    margin: 30px;
+}
+
+.table-header {
+    padding: 16px;
+    padding-left: 30px;
+    padding-right: 97px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    color: #fff;
+    background-color: #01384D;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.table-list {
+    width: 100%;
+   padding: 0;
+   max-height: 333px;
+   overflow: auto;
+}
+
+.table-list li {
+    padding: 20px 0;
+    padding-left: 30px;
+    padding-right: 97px;
+    border: 1px solid #000;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.edit-btn{
+    border: none;
+    color: #01384D;
+    background: #e6ebed;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.delete-btn{
+    border: none;
+    color: #D61F1F;
+    background-color: #d99a9a;
+    padding: 8px 10px;
+    border-radius: 5px;
+}

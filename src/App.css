@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-family: 'Livvic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #01384D;
+    flex-wrap: wrap;
+    padding: 15px 30px;
+}
+
+.logo {
+    margin-right: 48px;
+}
+
+.input-wrap {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-search {
+    position: absolute;
+    right: 5px;
+
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.account i {
+    padding: 7px 9px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.account p {
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.navbar-wrap {
+    background-color: #01384D;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+}
+
+.navbar a {
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 32px;
+}
+.navbar a i{
+    margin-right: 13px;
+}
+.navbar a:hover{
+    background-color: #EABF9F;
+}
